@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--bg-color-white);
+  color: var(--color-gray);
+}
+
+.container {
+  max-width: 1370px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
