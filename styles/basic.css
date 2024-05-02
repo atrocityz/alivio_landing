@@ -8,12 +8,48 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: var(--bg-color-white);
+  background-color: var(--color-white);
   color: var(--color-gray);
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 .container {
-  max-width: 1370px;
-  padding: 0 30px;
+  max-width: 1400px;
+  padding: 0 10px;
   margin: 0 auto;
+}
+
+.logo {
+  width: 81px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px 50px;
+  background-color: var(--color-green);
+  text-align: center;
+
+  font-family: "Lato", sans-serif;
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  outline: 2px solid var(--color-dark-green);
+  cursor: pointer;
+}
+
+.btn-signin {
+  background-color: transparent;
+  color: var(--color-black);
 }
