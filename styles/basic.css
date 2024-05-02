@@ -41,6 +41,7 @@ a {
   color: var(--color-white);
   font-weight: 400;
   font-size: 20px;
+  transition: outline .05s;
 }
 
 .btn:hover,
@@ -52,4 +53,22 @@ a {
 .btn-signin {
   background-color: transparent;
   color: var(--color-black);
+}
+
+.btn-signin:hover,
+.btn-signin:focus-visible {
+  outline: none;
+}
+
+.btn-signin::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: black;
+  transition: .3s;
+}
+
+.btn-signin:hover::after {
+  width: 100%;
 }
