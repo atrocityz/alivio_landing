@@ -1,8 +1,7 @@
 .product__wrapper {
-  padding: 115px 0 200px 60px;
+  padding: 115px 0 368px 60px;
   display: flex;
   align-items: start;
-  /* justify-content: space-between; */
   gap: 55px;
   position: relative;
 }
@@ -86,7 +85,7 @@
 
 @media (max-width:768px) {
   .product__content {
-    margin: 100px 0 0 0;
+    margin: 120px 0 0 0;
   }
 
   .product__preview {

@@ -27,6 +27,7 @@ a {
   width: 81px;
   height: 24px;
   flex-shrink: 0;
+  fill: var(--color-green);
 }
 
 .btn {
