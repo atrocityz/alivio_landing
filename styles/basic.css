@@ -37,6 +37,7 @@ a {
   padding: 20px 50px;
   background-color: var(--color-green);
   text-align: center;
+  flex-shrink: 0;
 
   font-family: "Lato", sans-serif;
   color: var(--color-white);
@@ -72,4 +73,11 @@ a {
 
 .btn-signin:hover::after {
   width: 100%;
+}
+
+@media (max-width:992px) {
+  .btn {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
 }

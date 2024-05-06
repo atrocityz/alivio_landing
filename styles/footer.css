@@ -34,3 +34,36 @@
 .pricing__nav-link:hover {
   color: var(--color-black);
 }
+
+@media (max-width:768px) {
+  .pricing__content {
+    padding: 50px 0 80px 15px;
+  }
+
+  .pricing__title {
+    font-size: 35px;
+  }
+
+  .pricing__nav-list {
+    gap: 50px;
+  }
+
+
+  .pricing__nav-link {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:578px) {
+  .pricing__title {
+    margin-bottom: 50px;
+  }
+
+  .pricing__nav-list {
+    gap: 40px;
+  }
+
+  .pricing__nav-link {
+    font-size: 18px;
+  }
+}
